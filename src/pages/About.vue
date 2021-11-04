@@ -1,16 +1,16 @@
 <template>
-  <div>
-      This is the About component.
-  </div>
+	<div>
+		This is the About component.
+	</div>
 </template>
 
 <script>
 
 export default {
-  name: 'About',
-  components: {
-    
-  }
+	name: 'About',
+	components: {
+		
+	}
 }
 </script>
 

@@ -1,16 +1,16 @@
 <template>
-  <div>
-      This is the Contact component.
-  </div>
+	<div>
+		This is the Contact component.
+	</div>
 </template>
 
 <script>
 
 export default {
-  name: 'Contact',
-  components: {
-    
-  }
+name: 'Contact',
+	components: {
+		
+	}
 }
 </script>
 
