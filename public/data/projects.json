@@ -24,5 +24,44 @@
 		"links": {
 			"github": ""
 		}
+	},
+	{
+		"id": 3,
+		"title": "Festivals App",
+		"description": "My first Vue.js festivals app",
+		"website": "",
+		"tags": ["Vue"],
+		"images": ["festivals.png"],
+		"date": "2021",
+		"demo": "",
+		"links": {
+			"github": ""
+		}
+	},
+	{
+		"id": 4,
+		"title": "REST Countries",
+		"description": "My first Vue.js countries app",
+		"website": "",
+		"tags": ["Vue"],
+		"images": ["restcountries.png"],
+		"date": "2021",
+		"demo": "",
+		"links": {
+			"github": ""
+		}
+	},
+	{
+		"id": 5,
+		"title": "RESTful College",
+		"description": "My first Vue.js college app",
+		"website": "",
+		"tags": ["Vue"],
+		"images": ["restfulcollege.png"],
+		"date": "2021",
+		"demo": "",
+		"links": {
+			"github": ""
+		}
 	}
 ]
