@@ -3,11 +3,10 @@
 		<b-input v-model="searchTerm" placeholder="Search Projects" class="mt-4 mb-4"/>
 		<b-row cols="4" >
 			<b-card v-for="project in filteredProjects" :key="project.id">
-				<b-card-img>
-
-				</b-card-img>
-					<b-card-title>{{project.title}}</b-card-title>
-					<b-badge pill variant="info" v-for="tag in project.tags" :key="tag" class="mr-1">{{ tag }}</b-badge>
+				<b-card-img v-if="project.images[0]" :src="`./img/${project.images[0]}`" class="mb-4"></b-card-img>
+				<b-card-img v-else src="./img/missing.png" class="mb-4"></b-card-img>
+				<b-card-title>{{project.title}}</b-card-title>
+				<b-badge pill variant="info" v-for="tag in project.tags" :key="tag" class="mr-1">{{ tag }}</b-badge>
 				<b-card-text class="mt-3 d-flex flex-column">
 					<p>{{ project.description }}</p>
 					<p>Date: {{ project.date }}</p>

@@ -2,10 +2,10 @@
 	{
 		"id": 1,
 		"title": "VueDo",
-		"description": "My first Vue.js todo app",
+		"description": "Simple to-do list",
 		"website": "",
-		"tags": ["Vue"],
-		"images": ["vuedo.png"],
+		"tags": ["Vue", "Mini-App", "Learning Exercise"],
+		"images": ["list.png"],
 		"date": "2021",
 		"demo": "vue-do",
 		"links": {
@@ -15,10 +15,10 @@
 	{
 		"id": 2,
 		"title": "VueGiphy",
-		"description": "My first Vue.js gifs app",
+		"description": "Browse GIFs from Giphy",
 		"website": "",
-		"tags": ["Vue"],
-		"images": ["vuegifs.png"],
+		"tags": ["Vue", "Mini-App", "Learning Exercise"],
+		"images": ["eye.gif"],
 		"date": "2021",
 		"demo": "vue-gifs",
 		"links": {
@@ -28,10 +28,10 @@
 	{
 		"id": 3,
 		"title": "VueFestivals",
-		"description": "My first Vue.js festivals app",
+		"description": "Manage a festival API",
 		"website": "",
-		"tags": ["Vue", "APIs"],
-		"images": ["festivals.png"],
+		"tags": ["Vue", "APIs", "Learning Exercise"],
+		"images": ["music.png"],
 		"date": "2021",
 		"demo": "",
 		"links": {
@@ -41,10 +41,10 @@
 	{
 		"id": 4,
 		"title": "FruityCountries",
-		"description": "My first Vue.js countries app",
+		"description": "Browse the countries on Earth",
 		"website": "",
 		"tags": ["Vue", "APIs", "Project"],
-		"images": ["restcountries.png"],
+		"images": ["globe.png"],
 		"date": "2021",
 		"demo": "",
 		"links": {
@@ -55,10 +55,10 @@
 	{
 		"id": 5,
 		"title": "RESTful College",
-		"description": "My first Vue.js college app",
+		"description": "College database admin dashboard",
 		"website": "",
 		"tags": ["Vue", "APIs", "Project"],
-		"images": ["restfulcollege.png"],
+		"images": ["college.png"],
 		"date": "2021",
 		"demo": "",
 		"links": {
