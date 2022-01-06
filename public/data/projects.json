@@ -14,7 +14,7 @@
 	},
 	{
 		"id": 2,
-		"title": "VueGIFs",
+		"title": "VueGiphy",
 		"description": "My first Vue.js gifs app",
 		"website": "",
 		"tags": ["Vue"],
@@ -22,33 +22,34 @@
 		"date": "2021",
 		"demo": "vue-gifs",
 		"links": {
-			"github": ""
+			"github": "https://github.com/Mangoshi/VueGiphy"
 		}
 	},
 	{
 		"id": 3,
-		"title": "Festivals App",
+		"title": "VueFestivals",
 		"description": "My first Vue.js festivals app",
 		"website": "",
-		"tags": ["Vue, APIs"],
+		"tags": ["Vue", "APIs"],
 		"images": ["festivals.png"],
 		"date": "2021",
 		"demo": "",
 		"links": {
-			"github": ""
+			"github": "https://github.com/Mangoshi/vue-festivals-app-start"
 		}
 	},
 	{
 		"id": 4,
-		"title": "REST Countries",
+		"title": "FruityCountries",
 		"description": "My first Vue.js countries app",
 		"website": "",
-		"tags": ["Vue", "APIs"],
+		"tags": ["Vue", "APIs", "Project"],
 		"images": ["restcountries.png"],
 		"date": "2021",
 		"demo": "",
 		"links": {
-			"github": ""
+			"github": "https://github.com/Mangoshi/fed-y3-ca1-VueCountries",
+			"hosted": "https://fruitycountries.web.app/"
 		}
 	},
 	{
@@ -56,12 +57,13 @@
 		"title": "RESTful College",
 		"description": "My first Vue.js college app",
 		"website": "",
-		"tags": ["Vue, APIs"],
+		"tags": ["Vue", "APIs", "Project"],
 		"images": ["restfulcollege.png"],
 		"date": "2021",
 		"demo": "",
 		"links": {
-			"github": ""
+			"github": "https://github.com/Mangoshi/RESTfulCollege",
+			"hosted": "https://mangoshi.github.io/RESTfulCollege"
 		}
 	}
 ]

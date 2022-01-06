@@ -7,10 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue)
 
-import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
-Vue.use(Buefy)
-
 Vue.config.productionTip = false
 
 new Vue({

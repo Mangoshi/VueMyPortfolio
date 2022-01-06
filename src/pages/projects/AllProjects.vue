@@ -1,52 +1,25 @@
 <template>
-	<div class="columns">
-		<div class="column">
-			<b-field label="Search Projects">
-				<b-input v-model="searchTerm"/>
-			</b-field>
+	<b-col>
+		<b-input v-model="searchTerm" placeholder="Search Projects" class="mt-4 mb-4"/>
+		<b-row cols="4" >
+			<b-card v-for="project in filteredProjects" :key="project.id">
+				<b-card-img>
 
-			<div class="card" v-for="project in filteredProjects" :key="project.id">
-				<div class="card-image">
-					<figure class="image is-4by3">
-						<img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-					</figure>
-				</div>
-				<div class="card-content">
-					<div class="media">
-						<!-- <div class="media-left">
-							<figure class="image is-48x48">
-								<img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-							</figure>
-						</div> -->
-						<div class="media-content">
-							<p class="title is-4">{{project.title}}</p>
-							<b-taglist>
-								<b-tag v-for="tag in project.tags" :key="tag" type="is-info">{{ tag }}</b-tag>
-							</b-taglist>
-							<p class="subtitle is-6">{{project.description}}</p>
-							Date: {{ project.date }} <br>
-							<p v-if="project.demo"> Demo: <router-link :to="{name: project.demo}">Demo</router-link></p>
-						</div>
-					</div>
-				<div class="content">
-					<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-					<a href="#">#css</a> <a href="#">#responsive</a>
-					<br>
-					<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-<!-- 
-		Title: {{ project.title }} <br>
-		Description: {{ project.description }} <br>
-		Date: {{ project.date }} <br>
-		<p v-if="project.demo"> Demo: <router-link :to="{name: project.demo}">Demo</router-link></p>
-		<hr>
-		</div> -->
-	</div>
+				</b-card-img>
+					<b-card-title>{{project.title}}</b-card-title>
+					<b-badge pill variant="info" v-for="tag in project.tags" :key="tag" class="mr-1">{{ tag }}</b-badge>
+				<b-card-text class="mt-3 d-flex flex-column">
+					<p>{{ project.description }}</p>
+					<p>Date: {{ project.date }}</p>
+					<b-button-group >
+						<b-badge variant="dark" class="mr-1" v-if="project.demo"><router-link class="badgeLink" :to="{ name: project.demo }">Demo</router-link></b-badge>
+						<b-badge variant="dark" class="mr-1" v-if="project.links.github"><a class="badgeLink" :href="project.links.github" target="_blank">GitHub</a></b-badge>
+						<b-badge variant="dark" class="mr-1" v-if="project.links.hosted"><a class="badgeLink" :href="project.links.hosted" target="_blank">Hosted</a></b-badge>
+					</b-button-group>
+				</b-card-text>
+			</b-card>
+		</b-row>
+	</b-col>
 </template>
 
 <script>
@@ -87,5 +60,10 @@ export default {
 </script>
 
 <style>
-
+	.badgeLink, .badgeLink:link, .badgeLink:visited{
+		color: aquamarine !important;
+	}
+	.badgeLink:hover{
+		color: pink !important;
+	}
 </style>

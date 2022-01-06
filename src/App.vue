@@ -1,9 +1,9 @@
 <template>
 	<div>
 		<nav-bar />
-		<div class="container">
+		<b-container>
 			<router-view />
-		</div>
+		</b-container>
 	</div>
 </template>
 
@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style>
-
+	body{
+		background-color: #dadada;
+	}
 </style>
