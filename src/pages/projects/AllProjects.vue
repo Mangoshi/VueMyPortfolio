@@ -24,6 +24,7 @@
 <script>
 
 export default {
+	title: 'Projects | VueMyPortfolio',
 	name: 'AllProjects',
 	components: {
 		

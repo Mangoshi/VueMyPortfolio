@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue)
 
+import titleMixin from './mixins/titleMixin'
+Vue.mixin(titleMixin)
+
 Vue.config.productionTip = false
 
 new Vue({

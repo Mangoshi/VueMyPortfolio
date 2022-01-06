@@ -8,11 +8,12 @@
 <script>
 
 export default {
-name: 'Home',
-	components: {
-		
+	title: 'Home | VueMyPortfolio',
+	name: 'Home',
+		components: {
+			
+		}
 	}
-}
 </script>
 
 <style>
