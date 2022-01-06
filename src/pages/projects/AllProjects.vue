@@ -61,8 +61,10 @@ export default {
 <style>
 	.badgeLink, .badgeLink:link, .badgeLink:visited{
 		color: aquamarine !important;
+		font-size: 1.25em;
 	}
 	.badgeLink:hover{
 		color: pink !important;
+		text-decoration: none;
 	}
 </style>

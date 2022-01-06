@@ -1,6 +1,7 @@
 <template>
-	<div>
-		This is the Contact component.
+	<div class="centered contactInfo">
+		<h3 class="contactQuestion">Want to get in touch?</h3>
+		<h4 class="contactEmail"><a href="mailto:mangoshimonks@gmail.com">Send me an email :)</a></h4>
 	</div>
 </template>
 
@@ -15,5 +16,13 @@ name: 'Contact',
 </script>
 
 <style>
-
+	.contactInfo{
+		margin-top: 6vw;
+	}
+	.contactQuestion{
+		user-select: none;
+	}
+	.contactEmail{
+		user-select: all;
+	}
 </style>

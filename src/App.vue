@@ -18,7 +18,13 @@ export default {
 </script>
 
 <style>
+	*{
+		font-family: 'Courier New', Courier, monospace;
+	}
 	body{
 		background-color: #dadada;
+	}
+	.centered{
+		text-align: center !important;
 	}
 </style>

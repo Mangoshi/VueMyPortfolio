@@ -2,7 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 // 'Page' Components //
 import Home from '@/pages/Home.vue'
-import About from '@/pages/About.vue'
 import Contact from '@/pages/Contact.vue'
 import AllProjects from '@/pages/projects/AllProjects.vue'
 // Projects //
@@ -19,11 +18,6 @@ export default new VueRouter({
             path: '/',
             name: 'home',
             component: Home
-        },
-        {
-            path: '/about',
-            name: 'about',
-            component: About
         },
         {
             path: '/contact',
