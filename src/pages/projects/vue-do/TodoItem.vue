@@ -2,14 +2,15 @@
     <b-list-group-item>
         <span v-if='todo.done' class='done'>{{ todo.text }}</span>
         <span v-else>{{ todo.text }}</span>
-        <span v-if='todo.done' class='float-end'>&#128077;</span>
+        <span v-if='todo.done'>&#128077;</span>
         <b-button 
-            v-else class='float-end' 
+            v-else 
+            class='align-self-end'
             pill variant='outline-success' 
             @click='completeTodo'>&#10003;
         </b-button>
         <b-button 
-            class='float-start' 
+            class='align-self-end'
             pill variant='outline-danger' 
             @click='deleteTodo'>&#10060;
         </b-button>

@@ -1,10 +1,10 @@
 <template>
-	<div>
+	<b-container fluid>
 		<nav-bar />
-		<b-container>
+		<b-container fluid>
 			<router-view />
 		</b-container>
-	</div>
+	</b-container>
 </template>
 
 <script>
@@ -22,7 +22,9 @@ export default {
 		font-family: 'Courier New', Courier, monospace;
 	}
 	body{
-		background-color: #dadada;
+		background-image: url("../public/img/bg.jpg");
+		background-position: center top;
+		background-size: 100%;
 	}
 	.centered{
 		text-align: center !important;

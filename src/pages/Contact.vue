@@ -18,12 +18,20 @@ export default {
 
 <style>
 	.contactInfo{
-		margin-top: 6vw;
+		color: white;
+		margin-top: 15vw;
 	}
 	.contactQuestion{
 		user-select: none;
 	}
 	.contactEmail{
 		user-select: all;
+	}
+	.contactEmail a{
+		color: aqua;
+	}
+	.contactEmail a:hover{
+		color: aquamarine;
+		text-decoration: none;
 	}
 </style>

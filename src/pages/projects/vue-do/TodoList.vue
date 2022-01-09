@@ -12,8 +12,9 @@
                 :todo="item"
                 v-on:todo-completed="completeTodo" 
                 v-on:todo-deleted="deleteTodo"
-                class="d-flex"
+                class="d-flex flex-row"
             />
+            
         </b-list-group>
             <template v-slot:footer>
                 <!--Using v-on:keyup here instead of @click or @etc.. just to show it exists-->
